@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Outfit&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
+.container {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  width: 70%;
+  height: auto;
+  font-size: x-small;
+  text-align: center;
+  box-shadow: 4px 24px 72px -21px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 4px 24px 72px -21px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 4px 24px 72px -21px rgba(0, 0, 0, 0.59);
+}
+
+h6 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "DynaPuff", cursive;
+}
+
+.quote {
+  padding: 1.5em;
+  font-family: "Outfit", sans-serif;
+}
+.quote::before {
+  content: "“";
+}
+
+.quote::after {
+  content: "”";
+}
+
+.source::before {
+  content: "- ";
+}
+
+#button {
+  background-color: crimson;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 10px;
+  margin: 10px 0;
+  padding: 5px;
+  box-shadow: 4px 25px 98px -44px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 4px 25px 98px -44px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 4px 25px 98px -44px rgba(0, 0, 0, 0.59);
+}
+
+#button:hover {
+  background-color: #ccc;
+  opacity: 0.8;
+  cursor: pointer;
+  color: black;
+}
