@@ -22,7 +22,8 @@ body {
   border-radius: 5px;
   width: 70%;
   height: auto;
-  font-size: x-small;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
   text-align: center;
   box-shadow: 4px 24px 72px -21px rgba(0, 0, 0, 0.59);
   -webkit-box-shadow: 4px 24px 72px -21px rgba(0, 0, 0, 0.59);
@@ -38,7 +39,6 @@ h6 {
 
 .quote {
   padding: 1.5em;
-  font-family: "Outfit", sans-serif;
 }
 .quote::before {
   content: "“";
@@ -58,7 +58,7 @@ h6 {
   border: none;
   border-radius: 5px;
   color: #fff;
-  font-size: 10px;
+  font-size: 12px;
   margin: 10px 0;
   padding: 5px;
   box-shadow: 4px 25px 98px -44px rgba(0, 0, 0, 0.59);
